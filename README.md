@@ -21,7 +21,8 @@ Outline and justify how your level design facilitates the core player experience
 
     My level design facilitates the player experience goal of discovery through the gradual introduction of core mechanics and areas that are heavily punishing if the player is unable to learn said mechanics. In my first section of the level, basic mechanics of acid, spikes and enemies are introduced in quick succession but in a way that is not too punishing for the player.
     Dying to the acid will only respawn you a few steps away from it, whereas in a later encounter, the acid will set you back extremely far.
-    1 (insert screenshot of spawn)
+    ![This is the alt text for an image!](DocImages/playerExperience1.png)
+
     The narrow spike jump is used later in more stressful situations with several enemies and moving platforms to land on, but here the only threat is the spike and even if you are damaged by it, the character's invulnerable state triggers and allows you to simply step over it without taking more damage.
     The enemy is large enough to force players into taking the route above them to avoid it. Circling behind the enemy gives players the gun pickup and introduces them to a very simple enemy interaction. In later encounters, a combination of jumping and shooting and dodging projectiles is required to deal with enemies.
     These simplified encounters of the three main threats present in the level allow players to discover mechanics as they go and the placement of each threat gives players time to learn in relative safety without being too slow or boring.
@@ -89,38 +90,31 @@ Storyboards can be combined when multiple mechanics are introduced within a sing
 You should restructure the headings below to match the order they appear in your level.
 
 ### 2.1. Acid
+Acid is introduced first to the player as it is used frequently throughout the rest of the level and is in my opinion the easiest mechanic to understand. Additionally, as the acid spawns the player back at the beginning or nearest checkpoint, I wanted it to not be annoying for players to backtrack to the encounter if they fall in.
 
 ### 2.8. Spikes
+Spikes are introduced second to the player as they are frequently used thorughout the level in increasing difficulty and it is important for player's to understand their mechanics.
 
 ### 2.9. Spitters ### 2.7. Passthrough Platforms ### 2.10. Weapon Pickup (Gun)
+Spitters, passthrough platforms and the gun are all introduced at the same time. Forcing players to jump through the passthrough platform as they have nowhere else to go due to the spitter blocking their way teaches them how the platforms work as well ass that spitters are enemies that hurt you. I think the gun has to be introduced at the same tinme as an enemy as it teaches players that shooting will kill enemies.
 
 ### 2.6. Moving Platforms
+Moving platforms are introduced to the player in a low risk environment where dying in the acid below it doesn't send them back too far. Jumping onto a moving platform requires more precise inputs which is why it is introduced after more simple obstacles such as the acid or spikes.
 
 
-
-### 2.2. Checkpoints
-
-### 2.4. Health Pickups
+### 2.2. Checkpoints ### 2.4. Health Pickups
+Checkpoints and health pickups are introduced at the same time, allowing players to take damage, learn they respawn at the checkpoint and then heal directly afterwards. They are introduced later as they require the player to have progressed enough to have taken damage and to feel as if they are no longer at the spawnpoint.
 
 ### 2.5. Keys
+Keys are introduced after most obstacles, allowing these obstacles to be used to block the path of the key.
 
 ### 2.3. Chompers
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+The chomper is introduced quite late so as to not overwhelm players with too many enemy types at once and instead allow them to get used to shooting enemies that won't move toward them.
 
 ### 2.11. Weapon Pickup (Staff)
+The staff is introduced last as its main use as a tool to destroy walls and columns is more complicated and requires players to have a basic knowledge of the other mechanics so that destructible objects can be implemented in interesting ways.
+
+
 
 ## 3. Spatiotemporal Design
 A section on Spatiotemporal Design, which includes your molecule diagram and annotated level maps (one for each main section of your level). These diagrams may be made digitally or by hand, but must not be created from screenshots of your game. The annotated level maps should show the structure you intend to build, included game elements, and the path the player is expected to take through the level. Examples of these diagrams are included in the level design lectures.
